@@ -1,0 +1,85 @@
+@charset "UTF-8";
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add a background image to the body */
+body {
+    background-image: url('../images/success_page.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    display: flexbox;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;   
+}
+
+/* Form Styles */
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: left; /* Align form elements to the left */
+}
+
+h4{
+	color: red;
+}
+form {
+    text-align: left; /* Align form elements to the left */
+}
+
+/* Style for form labels */
+form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+
+/* Centered Container Styles */
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+}
+
+/* Tour Information Box Styles */
+.tour-information-box {
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: rgb(0, 0, 0);
+    text-align: center; /* Center-align text */
+    background-color: rgb(192, 192, 192); /* Change the background color to red, you can use any valid color code */
+    width: 400px; /* Increase the width to 120% to make it larger */
+    opacity: 0.8;
+    height: 90%;
+}
+
+/* Submit Button Styles */
+input[type="submit"] {
+    grid-column: span 2;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
